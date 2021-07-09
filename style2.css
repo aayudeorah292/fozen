@@ -1,0 +1,62 @@
+body {
+
+    color: black;
+  }
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color:grey;
+  }
+  
+  .right {
+    right: 0;
+    background-color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  #start{
+     width: 90%;
+      height: 35;
+     background-color: #8101B1;
+       position: absolute;
+    left: 200px;
+  }
+  #email{
+      width: 250%;
+      height: 35;
+      left: 800px;
+  }
+  #up{
+     right: 700px;  
+  }
+  #book{
+    width: 800px;
+    height: 1000px;
+  }
+  #logo{
+    position: absolute;
+   bottom: 600px;
+  }
+  
+  
